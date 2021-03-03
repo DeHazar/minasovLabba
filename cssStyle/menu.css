@@ -1,0 +1,86 @@
+
+.nav-background{
+    background-color: #ECECEC;
+}
+.nav-background-img{
+    width:342px;  
+}
+.ul,li > a{
+    color: #6C6C6C !important;
+}
+.hide-on-med-and-down > li > a:hover{
+    color: #2196F3 !important;
+    transition: color 0.5s ease-out !important;
+    transition: border-bottom 0.1s ease-out !important;
+    background-color: transparent !important;
+    border-bottom: 4px solid #2196F3 !important;
+}
+.side-nav li > a:hover{
+    background-color: rgba(167, 167, 167, 0.1) !important;
+}
+.side-nav-cls{
+    background-color: #ECECEC !important;
+}
+.side-nav-cls li > a:hover{
+    background-color: #2196F3 !important;
+    color: white !important;
+    transition: background-color 1s ease-out !important;
+}
+.address{
+    padding: 15px;
+}
+.address > p{
+    color: #6C6C6C;
+}
+.social-cls{
+    padding: 15px;
+    margin-left: 50px;
+}
+.download-cls{
+    margin-left: 45px;
+}
+.top-nav{
+    height: 68px;
+}
+.horizontal-menu-cls{
+    margin-right: 52px;
+}
+.s3-width{
+    width: 22% !important;
+}
+.s9-width{
+    width: 78% !important;
+}
+#sidenav-overlay{
+    z-index: 994 !important;
+    background-color: transparent !important;
+    color:black !important;
+}
+.body-cls-style{
+    background-color: #ECECEC; 
+    height: 100%;
+    width: 100%;
+}
+.responsive-cls{
+   width:300px !important; 
+}
+.user-color-cls{
+    color: whitesmoke !important;
+    font-family: Raleway-Regular;
+}
+.download-btn-sm-d{
+    color: white !important;
+}
+@media screen and (max-width:1280px){
+    .responsive-cls{
+        width: 283px !important;
+    }
+}
+@media screen and (max-height:500px){
+    #downloadBtn{
+        display:none;
+    }
+    .download-btn-sm-d{
+        display: block !important;
+    }
+}

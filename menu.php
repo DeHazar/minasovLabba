@@ -1,23 +1,4 @@
-<!--TOP NAV-->
-<div class="navbar-fixed">
-    <nav class="top-nav nav-background">
-        <div class="container">
-            <div class="nav-wrapper">
-                <a href="#" data-activates="mobile-render" class="button-collapse blue-grey-text"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a onclick="goTop(this)">Обо мне</a></li>
-                    <li><a href="#skill">Навыки программирования</a></li>
-                    <li><a href="#qualification">Обучение</a></li>
-                </ul>
-                <ul class="side-nav side-nav-cls" id="mobile-render">
-                    <li><a onclick="goTop(this)">Обо мне</a></li>
-                    <li><a href="#skill">Навыки программирования</a></li>
-                    <li><a href="#qualification">Обучение</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</div>
+<?php require "parts/header.php"?>
 <div class="row">
     <div class="col s3 s3-width">
         <!--SIDE NAV-->

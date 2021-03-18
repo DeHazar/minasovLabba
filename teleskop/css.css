@@ -1,0 +1,233 @@
+.fon {
+  width: 350px;
+   height: 330px;
+    top: 130px;
+     left:500px;
+      position: absolute;
+       opacity: 1;
+       }
+
+#forma {
+  }
+.in_pl {
+  margin-bottom:15px;
+   padding:7px 9px;
+    border-radius:25px;
+     border:none;
+   box-shadow:0 0 5px rgba(0,0,0,.1);
+  border:1px solid #36c;
+}
+
+#form {
+  }
+.slovospb {
+ position:absolute;
+  width: 510px;
+   height: 250px;
+    top:280px;
+     left: 830px;
+  margin-bottom:15px;
+   padding:7px 9px;
+    border-radius:4px;
+     border:none;
+   box-shadow:0 0 5px rgba(0,0,0,.1);
+  border:1px solid #36c; }
+
+#otpravit {
+  position:absolute;
+  width: 200px;
+   height: 50px;
+    top:535px;
+     left: 830px;
+      padding:9px 18px;
+       margin-bottom: 8px;
+    border-radius:2px;
+     border:none;
+      box-shadow:0 0 2px rgba(0,0,0,.2);
+      background: lightblue;
+       cursor:pointer;
+        opacity:0.7; 
+         padding:9px 18px;
+     border:none;
+      }
+#otpravit:hover {
+  border-radius: 70% }
+
+#submit {
+   padding:9px 18px;
+    border-radius:25px;
+     border:none;
+      box-shadow:0 0 2px rgba(0,0,0,.2);
+      background: lightblue;
+       cursor:pointer;
+        opacity:0.7;
+}
+#submit:hover {
+   -webkit-transform: scale(1.2);
+         -ms-transform:scale(1.2);
+          transform: scale(1.2);
+            opacity: 6; }
+
+#text {
+  position: center;
+   
+     font-family: Times new roman;
+      opacity: 0.8;
+      font-size: 30px; }
+    
+#textone {
+  position: center;
+   font-family: Times new roman;
+    opacity:0.6;
+     font-size: 18px; }
+
+.myfon {   
+   width: 1350px;
+   height: 205px;
+    top: 55px;
+     background:azure;
+     left: 5px;
+      position: absolute;
+       opacity: 0.2;
+       box-shadow: inset azure 0 0 40px 12px,
+                             azure 0 0 10px 12px; }
+
+.myfonONE {
+  width: 500px;
+   height: 35px;
+    top: 40px;
+     background:azure;
+     left: 430px;
+      position: absolute;
+       opacity: 0.8;
+       font-family: Times New Roman;
+        font-size:28px;
+       box-shadow: inset azure 0 0 40px 12px,
+                             azure 0 0 10px 12px; }
+
+
+
+
+#kartone {
+  width: 175px;
+   height: 175px;
+    position: absolute;
+     top:80px; 
+      left:0px;}
+
+#karttwo {
+  width: 175px;
+   height: 175px;
+    position: absolute;
+     top:80px;
+      left: 175px; }
+
+#kartthree {
+  width: 175px;
+   height: 175px;
+    position: absolute;
+     top:80px;
+      left: 350px; }
+
+#kartfour {
+  width: 175px;
+   height: 175px;
+    position: absolute;
+     top:80px;
+      left: 525px; }
+
+#kartfive {
+  width: 175px;
+   height: 175px;
+    position: absolute;
+     top:80px;
+      left: 700px; }
+
+#kartsix {
+  width: 175px;
+   height: 175px;
+    position: absolute;
+     top:80px;
+      left: 875px; }
+
+#kartseven {
+  width: 175px;
+   height: 175px;
+    position: absolute;
+     top:80px;
+      left: 1050px; }
+
+#karteight {
+  width: 141px;
+   height: 175px;
+    position: absolute;
+     top:80px;
+      left: 1225px; }
+
+.myfonTWO {
+   width: 500px;
+   height: 140px;
+    top: 290px;
+     background:darkgray;
+     left: 20px;
+      position: absolute;
+       opacity: 0.6;
+        }
+
+.myfonTWO:hover {
+  opacity: 1;
+}
+
+#kartnine {
+  width: 290px;
+   height: 150px;
+    position: absolute;
+     top:285px;
+      left: 520px; }
+
+#kartnineone {
+  width: 290px;
+   height: 150px;
+    position: absolute;
+     top:440px;
+      left: 520px; }
+
+#textThree {
+  position: absolute;
+   top: 300px;
+    left:40px;
+     font-family: Times new roman;
+      opacity: 0.8;
+      font-size: 15px; }
+
+#ONEONE {
+  position: absolute;
+   width:2024;
+    height:716; 
+     left: 0px; 
+    top:0px; }
+
+.logo {
+  width: 450px;
+   height: 45px;
+    top: 290px;
+     background:write;
+     left: 35px;
+      position: absolute;
+      }
+
+.myfone {
+  width: 500px;
+   height: 140px;
+    top: 450px;
+     background:darkgray;
+     left: 20px;
+      position: absolute;
+       opacity: 0.6;
+       font-family: Times New Roman;
+        
+        }
+
+.myfone:hover {
+   opacity:1;
+    }

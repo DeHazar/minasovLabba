@@ -28,9 +28,9 @@
                 <ul class="right hide-on-med-and-down">
                     <li><a href="../index.php">Обо мне</a></li>
                     <li><a href="../pages/lections.php">Лекции</a></li>
-                    <li><a href="/pages/practices.php">Практики</a></li>
-                    <li><a href="/pages/services.php">Отчеты ССОИ ОТС</a></li>
-                    <li><a href="/pages/constructions.php">Отчеты ОКО ОТС</a></li>
+                    <li><a href="../pages/practices.php">Практики</a></li>
+                    <li><a href="../pages/services.php">Отчеты ССОИ ОТС</a></li>
+                    <li><a href="../pages/constructions.php">Отчеты ОКО ОТС</a></li>
                 </ul>
                 <ul class="side-nav side-nav-cls" id="mobile-render">
                     <li><a  href="../index.php">Обо мне</a></li>

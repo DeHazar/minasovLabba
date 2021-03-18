@@ -7,7 +7,7 @@
                     <div class="background">
                         <img src="image/photo_2021-03-03_21-09-56.jpg" class="nav-background-img">
                     </div>
-                    <a><span class="user-color-cls name" style="padding-bottom: 100px"><b>Гараев Денис Нагимович СТС-407</b></span></a>
+                    <a><span class="user-color-cls name" style="padding-bottom: 100px"><b>Гараев Денис Нагимович</b></span></a>
                 </div></li>
             <li><a class="subheader"><i class="fa fa-address-card" aria-hidden="true"></i>Как связаться</a></li>
             <li><div class="divider"></div></li>

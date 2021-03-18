@@ -1,18 +1,4 @@
 <html>
-    <head>
-        <title></title>
-    </head>
-    <body class="body-cls-style">
-    <div class="body-cls-style">
-        <?php
-        require_once './loader.php';
-        ?>
-        <div class="main-wrapper" style="display: none;">
-            <?php
-            require_once './menu.php';
-            ?>
-        </div>
-    </div>
     <script src="Script/css3-animate-it.js" type="text/javascript"></script>
     </body>
     <body>
@@ -226,8 +212,8 @@
             <div class="divider"></div>
         </div>
     <div class="fixed-action-btn horizontal">
-        <a title="Наверх." class="btn-floating waves-effect waves-light hide grey darken-3 upward" onclick="goTop(this)">
-            <i class="large material-icons">Вернуться обратно</i>
+        <a title="" class="btn-floating waves-effect waves-light hide grey darken-3 upward" onclick="goTop(this)">
+            <i class="large material-icons ">arrow_upward</i>
         </a>
     </div>
 

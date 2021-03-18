@@ -1,9 +1,12 @@
-
+<?php
+//$root = "http://".$_SERVER["HTTP_HOST"]."/repository/student/sts-07/14263";
+$root = "http://".$_SERVER["HTTP_HOST"]."/";
+?>
 <html>
 <head>
     <title>Обо мне</title>
     <?php
-    $root = "http://".$_SERVER["HTTP_HOST"]."/repository/student/sts-07/14263";
+
         echo " <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">
     <link rel=\"stylesheet\" href=\"".$root."/font-mfizz-2.4.1/font-mfizz.css\">
     <!--Import materialize.css-->
@@ -30,7 +33,6 @@
                 <a href="#" data-activates="mobile-render" class="button-collapse blue-grey-text"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <?php
-                    $root = "http://".$_SERVER["HTTP_HOST"]."/repository/student/sts-07/14263/";
                     echo "
                     <li><a href=\"".$root."index.php\">Обо мне</a></li>
                     <li><a href=\"".$root."pages/lections.php\">Лекции</a></li>

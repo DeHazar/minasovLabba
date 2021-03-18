@@ -27,6 +27,11 @@
                               <td><a href="../reports/sopromat/1/1.docx">Гараев Д.Н. 1 лаба </a> </td>
                               <td><a href="../reports/sopromat/1/1.pdf">Гараев Д.Н. 1 лаба </a> </td>
                           </tr>
+                          <tr>
+                              <td>1</td>
+                              <td><a href="../reports/sopromat/1/1.docx">Гараев Д.Н. 1 лаба </a> </td>
+                              <td><a href="../reports/sopromat/1/1.pdf">Гараев Д.Н. 1 лаба </a> </td>
+                          </tr>
                           </tbody>
                       </table>
                   </div>

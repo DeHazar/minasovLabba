@@ -1,0 +1,53 @@
+{
+   "data":[
+      {
+         "Name":"Телескоп Meade LX600 16\" ACF с системой StarLock",
+         "Focus":"3251",
+         "Diameter":"406",
+         "Weight":"225",
+         "Price":"3370990"
+      },
+      {
+         "Name":"Солнечный телескоп CORONADO SolarMax III 90 Double Stack, с блок. фильтром 30 мм (OTA)",
+         "Focus":"800",
+         "Diameter":"90",
+         "Weight":"10",
+         "Price":"1056990"
+      },
+      {
+         "Name":"Телескоп Levenhuk Skyline BASE 50T",
+         "Focus":"600",
+         "Diameter":"50",
+         "Weight":"2.4",
+         "Price":"6990"
+      },
+      {
+         "Name":"Телескоп Konus Konuspace-4 50/600 AZ, настольный",
+         "Focus":"600",
+         "Diameter":"50",
+         "Weight":"1.28",
+         "Price":"6390"
+      },
+      {
+         "Name":"Телескоп Sky-Watcher BK 607AZ2",
+         "Focus":"700",
+         "Diameter":"60",
+         "Weight":"4.12",
+         "Price":"13990"
+      },
+      {
+         "Name":"Телескоп Levenhuk Skyline Travel 50",
+         "Focus":"360",
+         "Diameter":"50",
+         "Weight":"2.3",
+         "Price":"7990"
+      },
+      {
+         "Name":"Телескоп Levenhuk Skyline Travel 80",
+         "Focus":"400",
+         "Diameter":"80",
+         "Weight":"3.87",
+         "Price":"19900"
+      }
+   ]
+}

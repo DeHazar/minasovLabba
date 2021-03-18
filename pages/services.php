@@ -20,13 +20,28 @@
                               <th>Номер лабораторной</th>
                               <th>PDF</th>
                               <th>Word</th>
+                              <th>Ссылки на задания</th>
                           </tr>
                           </thead>
                           <tbody>
                           <tr>
-                              <td>1</td>
-                              <td><a href="../reports/sopromat/1/1.docx">Гараев Д.Н. 1 лаба </a> </td>
-                              <td><a href="../reports/sopromat/1/1.pdf">Гараев Д.Н. 1 лаба </a> </td>
+                              <td>«Настройка Web-сервиса»</td>
+                              <td><a href="../reports/services/1/1лаба.pdf">Гараев Д.Н. 1 лаба </a> </td>
+                              <td><a href="../reports/services/1/1лаба.docx">Гараев Д.Н. 1 лаба </a> </td>
+                          </tr>
+                          <tr>
+                              <td> «Установка и настройка интерпретатора PHP.
+                                  ОСНОВЫ СИНТАКСИСА PHP
+                                  Основы синтаксиса PHP</td>
+                              <td><a href="../reports/services/2/ЛР2.pdf">Гараев Д.Н. 2 лаба </a> </td>
+                              <td><a href="../reports/services/2/ЛР2.docx">Гараев Д.Н. 2 лаба </a> </td>
+                              <td><a href="../reports/services/2/main.php">Таблица с данными</a></td>
+                          </tr>
+                          <tr>
+                              <td>ОСНОВЫ КЛИЕНТ-СЕРВЕРНЫХ ТЕХНОЛОГИЙ</td>
+                              <td><a href="../reports/services/3/3laba.pdf">Гараев Д.Н. 3 лаба </a> </td>
+                              <td><a href="../reports/services/3/3laba.docx">Гараев Д.Н. 3 лаба </a> </td>
+                              <td><a href="../reports/services/3/main.php">Таблица с данными</a></td>
                           </tr>
                           </tbody>
                       </table>

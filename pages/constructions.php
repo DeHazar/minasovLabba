@@ -23,10 +23,30 @@
                               </thead>
                               <tbody>
                               <tr>
-                                  <td>1</td>
-                                  <td><a href="../reports/sopromat/1/1.docx">Гараев Д.Н. 1 лаба </a> </td>
-                                  <td><a href="../reports/sopromat/1/1.pdf">Гараев Д.Н. 1 лаба </a> </td>
+                                  <td>Напряжения и деформации при растяжении
+                                      и сжатии стержней</td>
+                                  <td><a href="../reports/sopromat/1/Гараев%20Д.Н.%201%20лаба.pdf">Гараев Д.Н. 1 лаба </a> </td>
+                                  <td><a href="../reports/sopromat/1/Гараев%20Д.Н.%201%20лаба.docx">Гараев Д.Н. 1 лаба </a> </td>
                               </tr>
+                              <tr>
+                                  <td>Расчеты на прочность и жесткость
+                                      при изгибе</td>
+                                  <td><a href="../reports/sopromat/2/Гараев%20Д.Н.%202%20лаба.pdf">Гараев Д.Н. 2 лаба </a> </td>
+                                  <td><a href="../reports/sopromat/2/Гараев%20Д.Н.%202%20лаба.docx">Гараев Д.Н. 2 лаба </a> </td>
+                              </tr>
+                              <tr>
+                                  <td>Напряжения и деформации
+                                      при кручении стержней</td>
+                                  <td><a href="../reports/sopromat/3/Гараев%20Д.Н.%203%20лаба.pdf">Гараев Д.Н. 3 лаба </a> </td>
+                                  <td><a href="../reports/sopromat/3/Гараев%20Д.Н.%203%20лаба.docx">Гараев Д.Н. 3 лаба </a> </td>
+                              </tr>
+                              <tr>
+                                  <td> «Расчет деталей на
+                                      срез и смятие»</td>
+                                  <td><a href="../reports/sopromat/4/4лаба.pdf">Гараев Д.Н. 4 лаба </a> </td>
+                                  <td><a href="../reports/sopromat/4/4лаба.docx">Гараев Д.Н. 4 лаба </a> </td>
+                              </tr>
+
                               </tbody>
                           </table>
                       </div>

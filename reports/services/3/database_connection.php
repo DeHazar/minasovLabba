@@ -3,7 +3,7 @@ require_once 'app_config.php';
 
 $coding = 'utf8';
 
-$link = mysqli_connect(DATABASE_HOST, DATABASE_USERNAME, DATABASE_PASSWORD) OR DIE("conecterror");
+$link = mysqli_connect(DATABASE_HOST, DATABASE_USERNAME, DATABASE_PASSWORD);
 $query = "SET NAMES $coding";
 $res = mysqli_query($link, $query) or die(mysqli_error($link));
 $query = "USE " . DATABASE_NAME;

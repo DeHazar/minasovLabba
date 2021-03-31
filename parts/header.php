@@ -34,12 +34,12 @@ $root = "http://".$_SERVER["HTTP_HOST"]."/repository/student/sts-07/14263";
                 <ul class="right hide-on-med-and-down">
                     <?php
                     echo "
-                    <li><a href=\"".$root."index.php\">Обо мне</a></li>
-                    <li><a href=\"".$root."pages/lections.php\">Лекции</a></li>
-                    <li><a href=\"".$root."pages/practices.php\">Практики</a></li>
-                    <li><a href=\"".$root."pages/services.php\">Отчеты ССОИ ОТС</a></li>
-                    <li><a href=\"".$root."pages/constructions.php\">Отчеты ОКО ОТС</a></li>
-                    <li><a href=\"".$root."teleskop/index.php\">Телескопы</a></li>
+                    <li><a href=\"".$root."/index.php\">Обо мне</a></li>
+                    <li><a href=\"".$root."/pages/lections.php\">Лекции</a></li>
+                    <li><a href=\"".$root."/pages/practices.php\">Практики</a></li>
+                    <li><a href=\"".$root."/pages/services.php\">Отчеты ССОИ ОТС</a></li>
+                    <li><a href=\"".$root."/pages/constructions.php\">Отчеты ОКО ОТС</a></li>
+                    <li><a href=\"".$root."/teleskop/index.php\">Телескопы</a></li>
                     ";
                     ?>
                 </ul>

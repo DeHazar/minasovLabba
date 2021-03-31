@@ -8,8 +8,8 @@ $(document).ready(function () {
         closeOnClick: true
     });
     onPageLoad();
-    $(".loader").fadeOut(1000, function () {
-        $(".main-wrapper").fadeIn(1000);
+    $(".loader").fadeOut(0.2, function () {
+        $(".main-wrapper").fadeIn(0.2);
         $('#carouselLarge').carousel({
             padding: 200,
             fullWidth: true

@@ -22,6 +22,7 @@ $json_a = json_decode($string, true);
                     <table class="responsive-table centered qal-tbl-font">
                         <thead>
                         <tr>
+                            <th>№</th>
                             <th>Название</th>
                             <th>Фокусное расстояние</th>
                             <th>Диаметр, мм</th>
@@ -34,17 +35,20 @@ $json_a = json_decode($string, true);
                         usort($json_a["data"], function ($a, $b) {
                             return $a["Price"] > $b["Price"] ? -1 : 1;
                         });
+                        $num = 1;
                         foreach ($json_a["data"] as $item) {
                             if ($item["Weight"] < 3.0) {
                                 continue;
                             }
                             echo "<tr>
+<td>".$num."</td>
                             <td>".$item["Name"]."</td>
                             <td>".$item["Focus"]."</td>
                             <td>".$item["Diameter"]."</td>
                             <td>".$item["Weight"]."</td>
                             <td>".$item["Price"]."</td>
                             </tr>";
+                            $num++;
                         }
                         ?>
                         </tbody>

@@ -8,7 +8,9 @@
 <body >
   <?php require "../parts/header.php"?>
   <h1 class="" style="text-align: center; visibility: visible; ">Практики</h1>
+
   <div class="col s12 grey lighten-2 txt-align-span teal-div-cls">
+      <h3>СОПРОМАТ</h3>
       <div class="row">
           <div class="col s12 animatedParent">
               <div class="card grey lighten-3 animated fadeInLeft go">
@@ -16,21 +18,56 @@
                       <table class="responsive-table centered qal-tbl-font">
                           <thead>
                           <tr>
-                              <th>Номер лабораторной</th>
+                              <th>Номер</th>
                               <th>PDF</th>
-                              <th>Word</th>
+                          </tr>
+                          </thead>
+                          <tbody>
+                          <tr>
+                              <td>1</td>
+                              <td><a href="../reports/sopromat/practices/Практика1.pdf">Гараев Д.Н. 1 практика </a> </td>
+                          </tr>
+                          <tr>
+                              <td>2</td>
+                              <td><a href="../reports/sopromat/practices/Практика2.pdf">Гараев Д.Н. 2 практика </a> </td>
+                          </tr>
+                          <tr>
+                              <td>3</td>
+                              <td><a href="../reports/sopromat/practices/Практика3.pdf">Гараев Д.Н. 3 практика </a> </td>
+                          </tr>
+                          <tr>
+                              <td>4</td>
+                              <td><a href="../reports/sopromat/practices/Практика4.pdf">Гараев Д.Н. 4 практика </a> </td>
+                          </tr>
+                          <tr>
+                              <td>5</td>
+                              <td><a href="../reports/sopromat/practices/Практика5.pdf">Гараев Д.Н. 5 практика </a> </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="col s12 grey lighten-2 txt-align-span teal-div-cls">
+      <h3>ССОИ</h3>
+      <div class="row">
+          <div class="col s12 animatedParent">
+              <div class="card grey lighten-3 animated fadeInLeft go">
+                  <div class="card-content color-cls">
+                      <table class="responsive-table centered qal-tbl-font">
+                          <thead>
+                          <tr>
+                              <th>Номер</th>
+                              <th>PDF</th>
                           </tr>
                           </thead>
                           <tbody>
                           <tr>
                               <td>1</td>
                               <td><a href="../reports/sopromat/1/1.docx">Гараев Д.Н. 1 лаба </a> </td>
-                              <td><a href="../reports/sopromat/1/1.pdf">Гараев Д.Н. 1 лаба </a> </td>
-                          </tr>
-                          <tr>
-                              <td>1</td>
-                              <td><a href="../reports/sopromat/1/1.docx">Гараев Д.Н. 1 лаба </a> </td>
-                              <td><a href="../reports/sopromat/1/1.pdf">Гараев Д.Н. 1 лаба </a> </td>
                           </tr>
                           </tbody>
                       </table>

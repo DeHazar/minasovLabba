@@ -1,9 +1,8 @@
 <?php
-require_once "database_connection.php";
+require "./database_connection.php";
 
 $query= sprintf("SELECT * FROM telescops");
 $result = $link->query($query);
-
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -33,7 +32,7 @@ $result = $link->query($query);
                         </thead>
                         <tbody>
                         <?php
-                        while ($item = $result->fetch_array()) {
+                        while ($item = $result->fetch_assoc()) {
                             echo "<tr>
                             <td>".$item["Name"]."</td>
                             <td>".$item["Focus"]."</td>

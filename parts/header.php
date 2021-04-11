@@ -12,10 +12,8 @@ $root = "http://".$_SERVER["HTTP_HOST"]."/repository/student/sts-07/14263";
     <!--Import materialize.css-->
     <link href=\"".$root."/style/materialize.min.css\" rel=\"stylesheet\">
     <link href=\"".$root."/style/font-awesome.min.css\" rel=\"stylesheet\">
-    <link href=\"".$root."/style/animations.css\" rel=\"stylesheet\">
     <link href=\"".$root."/cssStyle/menu.css\" rel=\"stylesheet\">
     <link href=\"".$root."/cssStyle/masterpage.css\" rel=\"stylesheet\">
-    <link href=\"".$root."/cssStyle/loader.css\" rel=\"stylesheet\">
     <script src=\"".$root."/Script/jquery-3.6.0.min.js\" type=\"text/javascript\"></script>
     <script src=\"".$root."/Script/materialize.min.js\" type=\"text/javascript\"></script>
 
@@ -35,6 +33,7 @@ $root = "http://".$_SERVER["HTTP_HOST"]."/repository/student/sts-07/14263";
                     <?php
                     echo "
                     <li><a href=\"".$root."/index.php\">Обо мне</a></li>
+                    <li><a href='".$root."/Photos/my_photos.php'>Фотографии</a> </li>
                     <li><a href=\"".$root."/pages/lections.php\">Лекции</a></li>
                     <li><a href=\"".$root."/pages/practices.php\">Практики</a></li>
                     <li><a href=\"".$root."/pages/services.php\">Отчеты ССОИ ОТС</a></li>

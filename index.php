@@ -9,7 +9,7 @@
         <!--Import materialize.css-->
         <link href="./style/materialize.min.css" rel="stylesheet">
         <link href="./style/font-awesome.min.css" rel="stylesheet">
-        <link href="./style/animations.css" rel="stylesheet">
+<!--        <link href="./style/animations.css" rel="stylesheet">-->
         <link href="./cssStyle/menu.css" rel="stylesheet">
         <link href="./cssStyle/masterpage.css" rel="stylesheet">
         <link href="./cssStyle/loader.css" rel="stylesheet">
@@ -30,6 +30,6 @@
                 ?>
             </div>
         </div>
-        <script src="Script/css3-animate-it.js" type="text/javascript"></script>
+<!--        <script src="Script/css3-animate-it.js" type="text/javascript"></script>-->
     </body>
 </html>

@@ -49,6 +49,14 @@
                                   <a href="../reports/services/3/Запрос3.sql" >Запрос №3</a>
                               </td>
                           </tr>
+
+                          <tr>
+                              <td>Авторизация пользователя</td>
+                              <td><a href="../reports/services/3/3laba.pdf">Гараев Д.Н. 4 лаба </a> </td>
+                              <td><a href="../reports/services/3/3laba.docx">Гараев Д.Н. 4 лаба </a> </td>
+                              <td><a href="../reports/services/4/signIn.php">Авторизация</a></td>
+                          </tr>
+
                           </tbody>
                       </table>
                   </div>

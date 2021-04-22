@@ -52,11 +52,17 @@
 
                           <tr>
                               <td>Авторизация пользователя</td>
-                              <td><a href="../reports/services/3/3laba.pdf">Гараев Д.Н. 4 лаба </a> </td>
-                              <td><a href="../reports/services/3/3laba.docx">Гараев Д.Н. 4 лаба </a> </td>
+                              <td><a href="../reports/services/4/4laba.pdf">Гараев Д.Н. 4 лаба </a> </td>
+                              <td><a href="../reports/services/4/4laba.docx">Гараев Д.Н. 4 лаба </a> </td>
                               <td><a href="../reports/services/4/signIn.php">Авторизация</a></td>
                           </tr>
 
+                          <tr>
+                              <td>Обработка базы данных</td>
+                              <td><a href="../reports/services/3/3laba.pdf">Гараев Д.Н. 5 лаба </a> </td>
+                              <td><a href="../reports/services/3/3laba.docx">Гараев Д.Н. 5 лаба </a> </td>
+                              <td><a href="../reports/services/5/main.php">Таблица</a></td>
+                          </tr>
                           </tbody>
                       </table>
                   </div>

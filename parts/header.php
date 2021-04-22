@@ -1,7 +1,7 @@
 <?php
-//$root = "http://".$_SERVER["HTTP_HOST"]."/repository/student/sts-07/14263";
-$root = "http://".$_SERVER["HTTP_HOST"]."/";
-session_start();
+$root = "http://".$_SERVER["HTTP_HOST"]."/repository/student/sts-07/14263";
+// $root = "http://".$_SERVER["HTTP_HOST"]."/";
+//session_start();
 ?>
 <html>
 <head>

@@ -46,7 +46,11 @@
                                   <td><a href="../reports/sopromat/4/4лаба.pdf">Гараев Д.Н. 4 лаба </a> </td>
                                   <td><a href="../reports/sopromat/4/4лаба.docx">Гараев Д.Н. 4 лаба </a> </td>
                               </tr>
-
+                              <tr>
+                                  <td> «Расчет резьбовых соединений»</td>
+                                  <td><a href="../reports/sopromat/5/5лаба.pdf">Гараев Д.Н. 5 лаба </a> </td>
+                                  <td><a href="../reports/sopromat/5/5лаба.docx">Гараев Д.Н. 5 лаба </a> </td>
+                              </tr>
                               </tbody>
                           </table>
                       </div>

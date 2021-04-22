@@ -48,8 +48,8 @@
                               </tr>
                               <tr>
                                   <td> «Расчет резьбовых соединений»</td>
-                                  <td><a href="../reports/sopromat/5/5лаба.pdf">Гараев Д.Н. 5 лаба </a> </td>
-                                  <td><a href="../reports/sopromat/5/5лаба.docx">Гараев Д.Н. 5 лаба </a> </td>
+                                  <td><a href="../reports/sopromat/5/5лаба.pdf">Гараев Д.Н. 5-6 лаба </a> </td>
+                                  <td><a href="../reports/sopromat/5/5лаба.docx">Гараев Д.Н. 5-6 лаба </a> </td>
                               </tr>
                               </tbody>
                           </table>

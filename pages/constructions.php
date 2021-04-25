@@ -51,6 +51,11 @@
                                   <td><a href="../reports/sopromat/5/5лаба.pdf">Гараев Д.Н. 5-6 лаба </a> </td>
                                   <td><a href="../reports/sopromat/5/5лаба.docx">Гараев Д.Н. 5-6 лаба </a> </td>
                               </tr>
+                              <tr>
+                                  <td> Расчет крыла на статические нагрузки</td>
+                                  <td><a href="../reports/sopromat/7/7laba.pdf">Гараев Д.Н. 7 лаба </a> </td>
+                                  <td><a href="../reports/sopromat/7/7laba.docx">Гараев Д.Н. 7 лаба </a> </td>
+                              </tr>
                               </tbody>
                           </table>
                       </div>

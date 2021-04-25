@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <lang="ru">
 <head>
@@ -5,11 +6,10 @@
     <meta name="viewport" content="with-device-width, initial-scale = 1.0">
     <title>Авторизация</title>
 </head>
+
 <?php require "../../../parts/header.php"?>
 
 <?php
-
-session_start();
 
 require_once '../../../Script/database_connection.php';
 
@@ -55,9 +55,7 @@ if (isset($_POST['username'])) {
             <input type="text" placeholder="Логин пользователя" name="username" required/>
             <input type="password" placeholder="Пароль" name="password"  required/>
             </br>
-            <a href="signUp.php"> <p class="">Регистрация</p></a>
-            </br>
-            <input type="submit" value="Войти" name="register" class="btn btn-block btn-primary"/>
+            <input type="submit" value="Войти" name="register" class="btn btn-block btn-primary waves-effect waves-light"/>
         </form>
     </div></div>
 <?php

@@ -59,9 +59,16 @@
 
                           <tr>
                               <td>Обработка базы данных</td>
+                              <td><a href="../reports/services/5/лаба5.pdf">Гараев Д.Н. 5 лаба </a> </td>
+                              <td><a href="../reports/services/5/лаба5.docx">Гараев Д.Н. 5 лаба </a> </td>
+                              <td><a href="../reports/services/5/main.php">Таблица</a></td>
+                          </tr>
+
+                          <tr>
+                              <td>Проект</td>
                               <td><a href="../reports/services/3/3laba.pdf">Гараев Д.Н. 5 лаба </a> </td>
                               <td><a href="../reports/services/3/3laba.docx">Гараев Д.Н. 5 лаба </a> </td>
-                              <td><a href="../reports/services/5/main.php">Таблица</a></td>
+                              <td><a href="../reports/services/6/main.php">Проект</a></td>
                           </tr>
                           </tbody>
                       </table>

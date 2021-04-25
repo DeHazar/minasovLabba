@@ -1,6 +1,6 @@
 <?php
-$root = "http://".$_SERVER["HTTP_HOST"]."/repository/student/sts-07/14263";
-// $root = "http://".$_SERVER["HTTP_HOST"]."/";
+//$root = "http://".$_SERVER["HTTP_HOST"]."/repository/student/sts-07/14263";
+ $root = "http://".$_SERVER["HTTP_HOST"]."/";
 //session_start();
 ?>
 <html>
@@ -39,7 +39,7 @@ $root = "http://".$_SERVER["HTTP_HOST"]."/repository/student/sts-07/14263";
                     <li><a href=\"".$root."/pages/practices.php\">Практики</a></li>
                     <li><a href=\"".$root."/pages/services.php\">Отчеты ССОИ ОТС</a></li>
                     <li><a href=\"".$root."/pages/constructions.php\">Отчеты ОКО ОТС</a></li>
-                    <li><a href=\"".$root."/teleskop/index.php\">Телескопы</a></li>
+                    <li><a href=\"".$root."/reports/services/6/main.php\">Проект</a></li>
                     ";
                     // Если пользователь уже зашел, то кидаем на главную страницу
                     if (isset($_SESSION['user_id'])) {

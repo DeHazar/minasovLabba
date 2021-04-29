@@ -1,20 +1,60 @@
-<?php session_start(); ?>
 <!DOCTYPE html>
-<lang="ru">
+</lang="ru">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="with-device-width, initial-scale = 1.0">
-    <title>Авторизация</title>
+    <title>Таблица с выбором</title>
 </head>
 <body >
 
 <?php require "../../../parts/header.php"?>
+<?php
+require_once "../../../Script/database_connection.php";
+if (isset($_REQUEST['focus'])) {
+    $focus = $_REQUEST['focus'];
+    $query= sprintf("SELECT * FROM telescops WHERE Focus = \" ".$focus."\"");
+    $result = $link->query($query);
+} else {
+    $query= sprintf("SELECT * FROM telescops");
+    $result = $link->query($query);
+}
 
+$queryForFilter = sprintf("SELECT DISTINCT Focus FROM telescops ORDER BY Focus ASC");
+$result2 = $link->query($queryForFilter);
+
+?>
 <h1 class="" style="text-align: center; visibility: visible; ">Телескопы</h1>
-<div class="col s12 grey lighten-2 txt-align-span teal-div-cls">
+<div class="content s12">
     <div class="row">
-        <div class="col s12 animatedParent">
-            <div class="card grey lighten-3 animated fadeInLeft go">
+        <div class="col s4 offset-l4">
+            <div class="card grey lighten-3" style="padding-bottom: 20px">
+                <h5 class="center" style ="padding: 20px;">Фильтр</h5>
+                <br>
+                <form method="get">
+                    <p><select class="select-dropdown" style="display: block" name="focus" >
+                            <option disabled selected>Выберите фокусное расстояние</option>
+                            <?php
+                            while ($item = $result2->fetch_assoc()) {
+                                if ($item["Focus"] == $focus) {
+                                    echo '<option value="'.$item['Focus'].'" selected>'.$item['Focus'].'</option>';
+
+                                } else {
+                                    echo '<option value="'.$item['Focus'].'">'.$item['Focus'].'</option>';
+
+                                }
+                            }
+                            ?>
+                        </select></p>
+                    <div class="center" >
+                        <input type="submit" value="Отправить" class="btn center">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <div class="card grey lighten-3 ">
                 <div class="card-content color-cls">
                     <table class="responsive-table centered qal-tbl-font" id="sortable">
                         <thead>
@@ -28,10 +68,7 @@
                         </thead>
                         <tbody id="mainTable">
                         <?php
-                        require "../../../Script/database_connection.php";
 
-                        $query= sprintf("SELECT * FROM telescops");
-                        $result = $link->query($query);
                         while ($item = $result->fetch_assoc()) {
                             echo "<tr>
                             <td>".$item["Name"]."</td>

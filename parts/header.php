@@ -1,6 +1,6 @@
 <?php
 //$root = "http://".$_SERVER["HTTP_HOST"]."/repository/student/sts-07/14263";
- $root = "http://".$_SERVER["HTTP_HOST"]."/";
+  $root = "http://".$_SERVER["HTTP_HOST"]."/";
 //session_start();
 ?>
 <html>
@@ -28,7 +28,6 @@
 <div class="navbar-fixed">
     <nav class="top-nav nav-background">
         <div class="container">
-            <div class="nav-wrapper">
                 <a href="#" data-activates="mobile-render" class="button-collapse blue-grey-text"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <?php
@@ -43,7 +42,7 @@
                     ";
                     // Если пользователь уже зашел, то кидаем на главную страницу
                     if (isset($_SESSION['user_id'])) {
-                        echo "<li ><a href=\"".$root."/reports/services/4/signOut.php\" class='red-text'>Выйти</a></li>";
+                        echo "<li ><a href=\"".$root."/reports/services/6/signOut.php\" class='red-text'>Выйти</a></li>";
                     }
                     ?>
 
@@ -55,7 +54,6 @@
                     <li><a href="/pages/services.php">Отчеты ССОИ ОТС</a></li>
                     <li><a href="/pages/constructions.php">Отчеты ОКО ОТС</a></li>
                 </ul>
-            </div>
         </div>
     </nav>
 </div>

@@ -1,3 +1,29 @@
+<?php
+session_start();
+
+if (isset($_SESSION['user_id'])) {
+    $role = $_SESSION['role'];
+
+    switch ($role) {
+        case 1:
+            header("Location: user/menu.php");
+            exit();
+        case 2:
+            header("Location: admin/admin.php");
+            exit();
+
+        case 3:
+            header("Location: main/menu.php");
+            exit();
+
+        case 4:
+            header("Location: manager/menu.php");
+            exit();
+
+    }
+}
+?>
+
 <!DOCTYPE html>
 <lang="ru">
 <head>
@@ -8,7 +34,6 @@
 <body >
 
 <?php require "../../../parts/header.php"?>
-
 <div class="col s12 grey lighten-2 txt-align-span teal-div-cls">
     <h1 class="" style="text-align: center; visibility: visible; ">Телескопы</h1>
     <div class="col s5 center">

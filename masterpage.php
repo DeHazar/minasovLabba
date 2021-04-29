@@ -1,6 +1,4 @@
 <html>
-<!--    <script src="Script/css3-animate-it.js" type="text/javascript"></script>-->
-    </body>
     <body>
         <div>
             <div id="overview">

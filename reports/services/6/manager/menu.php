@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (isset($_SESSION['user_id'])) {
-    if ($_SESSION['role'] == 2) {
+    if ($_SESSION['role'] == 4) {
 
     }else {
         header("Location: ../main.php");
@@ -15,23 +15,23 @@ if (isset($_SESSION['user_id'])) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="with-device-width, initial-scale = 1.0">
-    <title>ADMIN</title>
+    <title>Редактор</title>
 </head>
 <body >
 
 <?php require "../../../../parts/header.php"?>
 
 <div class="col s12 grey lighten-2 txt-align-span teal-div-cls">
-    <h1 class="" style="text-align: center; visibility: visible; ">Администрирование</h1>
+    <h1 class="" style="text-align: center; visibility: visible; ">Редактор</h1>
     <div class="col s5 center">
         <div class="card grey lighten-3 wrapper center-block">
             <div class="card-content center">
                 <div class="row">
-                    <a class="waves-effect waves-light btn" style="width: 400px;" href="user_list.php">Редактировать пользователей</a>
+                    <a class="waves-effect waves-light btn" style="width: 400px;" href="../table.php">Посмотреть таблицу с телескопами</a>
 
                 </div>
                 <div class="row">
-                    <a class="waves-effect waves-light btn" style="width: 400px;" href="removeUserList.php"> Удалить пользователей</a>
+                    <a class="waves-effect waves-light btn" style="width: 400px;" href="add.php"> Добавить новый телескоп</a>
 
                 </div>
             </div>

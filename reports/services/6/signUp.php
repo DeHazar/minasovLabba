@@ -32,21 +32,23 @@ if (isset($_REQUEST['username']) | isset($_REQUEST['password'])) {
         $error_message = "Пользователь с таким логином уже существует";
     } else {
         $insert_sql = sprintf("INSERT INTO users " .
-            "( login, password, email, first_name, last_name, middle_name)" .
-            "VALUES ('%s', '%s', '%s', '%s', '%s', '%s');",
+            "( login, password, email, first_name, last_name, middle_name, user_role)" .
+            "VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s');",
             $link->real_escape_string($username),
             $link->real_escape_string(crypt($password, $username)),
             $link->real_escape_string($email),
             $link->real_escape_string($first_name),
             $link->real_escape_string($last_name),
-            $link->real_escape_string($middle_name));
+            $link->real_escape_string($middle_name),
+        1);
         // Insert the user into the database
         $result = $link->query($insert_sql);
 
         if ($result) {
             $_SESSION['user_id'] = $link->insert_id;
             $_SESSION['login'] = $username;
-            header("Location: ../3/main.php");
+            $_SESSION['role'] = 1;
+            header("Location: main.php");
             exit();
         } else {
             $error_message = "Произошла непредвиденная ошибка";

@@ -37,7 +37,7 @@ if (isset($_POST['username'])) {
         $_SESSION['user_id'] = $user_id;
         $_SESSION['login'] = $username;
 
-        header("Location: ../main.php");
+        header("Location: ../6/main.php");
         exit();
     } else {
         $error_message = "Комбинация логин/пароль не правильна. Проверьте ваши введенные данные";
@@ -64,7 +64,7 @@ if (isset($_POST['username'])) {
 } else {
     // Now handle the case where they're logged in
     // redirect to another page, most likely show_user.php
-    header("Location: ../main.php");
+    header("Location: ../6/main.php");
 }
 ?>
 

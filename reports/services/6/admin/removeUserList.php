@@ -40,20 +40,21 @@ if (isset($_POST['id'])) {
 <div class="container grey lighten-2">
 <div class="col  grey lighten-2 txt-align-span teal-div-cls">
     <h1 class="" style="text-align: center; visibility: visible; ">Удаление пользователя</h1>
-    <div class="row ">
-        <div class="col s5 offset-l4">
-        <div class="card grey lighten-3 wrapper center-block">
-            <div class="card-content center">
-                <form class="form" action="" method="post" enctype="multipart/form-data" autocomplete="off">
-                    <div class="alert alert-error"><?php if (isset($error_message)) echo $error_message; ?></div>
-                    <input type="text" placeholder="id пользователя" name="id" required/>
-                    </br>
-                    <input type="submit" value="Удалить" name="register" class="btn waves-effect waves-light"/>
-                </form>
-
-            </div>
-        </div>
-    </div>
+    <h3 class="center"><?php if (isset($error_message)) echo $error_message; ?></h3>
+<!--    <div class="row ">-->
+<!--        <div class="col s5 offset-l4">-->
+<!--        <div class="card grey lighten-3 wrapper center-block">-->
+<!--            <div class="card-content center">-->
+<!--                <form class="form" action="" method="post" enctype="multipart/form-data" autocomplete="off">-->
+<!--                    <div class="alert alert-error">--><?php //if (isset($error_message)) echo $error_message; ?><!--</div>-->
+<!--                    <input type="text" placeholder="id пользователя" name="id" required/>-->
+<!--                    </br>-->
+<!--                    <input type="submit" value="Удалить" name="register" class="btn waves-effect waves-light"/>-->
+<!--                </form>-->
+<!---->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
 
         <div class="row">
         <div class="col s12">
@@ -67,6 +68,7 @@ if (isset($_POST['id'])) {
                     <th>Фамилия</th>
                     <th>Отчество</th>
                     <th>Уровень прав</th>
+                    <th>Действия</th>
                 </tr>
                 </thead>
                 <tbody id="mainTable">
@@ -97,6 +99,10 @@ if (isset($_POST['id'])) {
                             <td>".$item["last_name"]."</td>
                             <td>".$item["middle_name"]."</td>
                             <td>".$level['title']."</td>
+                            <td><form action='removeUserList.php' method='post'>
+                            <input type='text' value='".$item['id']."' name='id' hidden>
+                            <input type='submit' class='btn' value='Удалить'>
+                            </form></td>
                             </tr>";
                 }
                 ?>

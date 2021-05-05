@@ -44,6 +44,7 @@
                               <td>
                                   <a href="../reports/services/3/main.php">Таблица с данными</a></br>
                                   <a href="../reports/services/3/Запрос0.sql">Выборка</a></br>
+                                  <a href="../reports/services/3/Create.sql">Сброс таблицы и создание</a></br>
                                   <a href="../reports/services/3/Запрос%20%231.sql">Запрос №1</a></br>
                                   <a href="../reports/services/3/Запрос%20%231.sql">Запрос №2</a></br>
                                   <a href="../reports/services/3/Запрос3.sql" >Запрос №3</a>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="with-device-width, initial-scale = 1.0">
-  <title>Сетевые сервисы обработки информации в ОТС</title>
+  <title>Основы конструкции объектов организационно-технических систем</title>
 </head>
 <body >
       <?php require "../parts/header.php"?>

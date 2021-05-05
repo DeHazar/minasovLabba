@@ -37,22 +37,23 @@ if (isset($_POST['id'])) {
 <div class="container grey lighten-2">
     <div class="col  grey lighten-2 txt-align-span teal-div-cls">
         <h1 class="" style="text-align: center; visibility: visible; ">Удаление телескопа</h1>
-        <div class="row ">
-            <div class="col s5 offset-l4">
-                <div class="card grey lighten-3 wrapper center-block">
-                    <div class="card-content center">
-                        <form class="form" action="" method="post" enctype="multipart/form-data" autocomplete="off">
-                            <div class="alert alert-error"><?php if (isset($error_message)) echo $error_message; ?></div>
-                            <input type="text" placeholder="id телескопа" name="id" required/>
-                            </br>
-                            <input type="submit" value="Удалить" name="register" class="btn waves-effect waves-light"/>
-                        </form>
-
-                    </div>
-                </div>
-            </div>
-
-        </d<div class="row">
+<!--        <div class="row ">-->
+<!--            <div class="col s5 offset-l4">-->
+<!--                <div class="card grey lighten-3 wrapper center-block">-->
+<!--                    <div class="card-content center">-->
+<!--                        <form class="form" action="" method="post" enctype="multipart/form-data" autocomplete="off">-->
+<!--                            <div class="alert alert-error">--><?php //if (isset($error_message)) echo $error_message; ?><!--</div>-->
+<!--                            <input type="text" placeholder="id телескопа" name="id" required/>-->
+<!--                            </br>-->
+<!--                            <input type="submit" value="Удалить" name="register" class="btn waves-effect waves-light"/>-->
+<!--                        </form>-->
+<!---->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+        <h3 class="center"><div class="alert alert-error"><?php if (isset($error_message)) echo $error_message; ?></div></h3>
+        <div class="row">
                 <div class="col s12">
                     <div class="card grey lighten-3 ">
                         <div class="card-content color-cls">
@@ -65,6 +66,7 @@ if (isset($_POST['id'])) {
                                     <th onclick="sortTable(2)">Диаметр, мм</th>
                                     <th onclick="sortTable(3)">Вес, кг</th>
                                     <th onclick="sortTable(4)">Цена, руб</th>
+                                    <th>Действия</th>
                                 </tr>
                                 </thead>
                                 <tbody id="mainTable">
@@ -80,6 +82,10 @@ if (isset($_POST['id'])) {
                             <td>".$item["Diameter"]."</td>
                             <td>".$item["Weight"]."</td>
                             <td>".$item["Price"]."</td>
+                            <td><form action='remove.php' method='post'>
+                            <input type='text' value='".$item['id']."' name='id' hidden>
+                            <input type='submit' class='btn' value='Удалить'>
+                            </form></td>
                             </tr>";
                                 }
                                 ?>

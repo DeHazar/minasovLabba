@@ -23,6 +23,7 @@ $queryForFilter = sprintf("SELECT DISTINCT Focus FROM telescops ORDER BY Focus A
 $result2 = $link->query($queryForFilter);
 
 ?>
+
 <h1 class="" style="text-align: center; visibility: visible; ">Телескопы</h1>
 <div class="content s12">
     <div class="row">
@@ -64,10 +65,41 @@ $result2 = $link->query($queryForFilter);
                             <th onclick="sortTable(2)">Диаметр, мм</th>
                             <th onclick="sortTable(3)">Вес, кг</th>
                             <th onclick="sortTable(4)">Цена, руб</th>
+                            <th>Изображение</th>
                         </tr>
                         </thead>
                         <tbody id="mainTable">
                         <?php
+                        function resize_image($file,$newName, $w, $h, $crop=FALSE) {
+                            list($width, $height) = getimagesize($file);
+                            $r = $width / $height;
+                            if ($crop) {
+                                if ($width > $height) {
+                                    $width = ceil($width-($width*abs($r-$w/$h)));
+                                } else {
+                                    $height = ceil($height-($height*abs($r-$w/$h)));
+                                }
+                                $newwidth = $w;
+                                $newheight = $h;
+                            } else {
+                                if ($w/$h > $r) {
+                                    $newwidth = $h*$r;
+                                    $newheight = $h;
+                                } else {
+                                    $newheight = $w/$r;
+                                    $newwidth = $w;
+                                }
+                            }
+
+                            $src = imagecreatefromjpeg($file);
+                            $dst = imagecreatetruecolor($newwidth, $newheight);
+
+                            imagecopyresampled($dst, $src, 0, 0, 0, 0, $newwidth, $newheight, $width, $height);
+                            imagejpeg($dst, 'compressed/'.$newName);
+
+                            return $newName;
+                        }
+
 
                         while ($item = $result->fetch_assoc()) {
                             echo "<tr>
@@ -76,6 +108,8 @@ $result2 = $link->query($queryForFilter);
                             <td>".$item["Diameter"]."</td>
                             <td>".$item["Weight"]."</td>
                             <td>".$item["Price"]."</td>
+                            <td><a href='../../../image/Telescopes/".$item["image_path"]."'><img src='compressed/"
+                                .resize_image($root."image/Telescopes/".$item["image_path"],$item["image_path"], 200, 70)."'/></td>
                             </tr>";
                         }
                         ?>

@@ -34,35 +34,35 @@ function resize_image($file,$newName, $w, $h, $crop=FALSE) {
         <div id="container" class="container">
             <div class="photo-grid clearfix">
                 <ul class="clearfix">
-                    <li style="width: 300px; height: 200px;">
+                    <li>
                         <a href="../image/4@3x.png" >
                         <img src="compressed/<?php
                         echo resize_image("../image/4.jpg","4", 300, 400);
                         ?>.jpg" />
                         </a>
                     </li>
-                    <li style="width: 300px; height: 300px;">
+                    <li >
                         <a href="../image/5@3x.png" >
                             <img src="compressed/<?php
                             echo resize_image("../image/5.jpg","5", 300, 400);
                             ?>.jpg" />
                         </a>
                     </li>
-                    <li style="width: 300px; height: 300px;">
+                    <li >
                         <a href="../image/6@3x.png" >
                             <img src="compressed/<?php
                             echo resize_image("../image/6.jpg","6", 300, 400);
                             ?>.jpg" />
                         </a>
                     </li>
-                    <li style="width: 300px; height: 300px;">
+                    <li >
                         <a href="../image/7@3x.png" >
                             <img src="compressed/<?php
                             echo resize_image("../image/7.jpg","7", 300, 400);
                             ?>.jpg" />
                         </a>
                     </li>
-                    <li style="width: 300px; height: 300px;">
+                    <li >
                         <a href="../image/8@3x.png" >
                             <img src="compressed/<?php
                             echo resize_image("../image/8.jpg","8", 300, 400);

@@ -10,7 +10,7 @@
   <h1 class="" style="text-align: center; visibility: visible; ">Практики</h1>
 
   <div class="col s12 grey lighten-2 txt-align-span teal-div-cls">
-      <h3>СОПРОМАТ</h3>
+      <h3>Основы конструкции объектов организационно-технических систем</h3>
       <div class="row">
           <div class="col s12 animatedParent">
               <div class="card grey lighten-3 animated fadeInLeft go">
@@ -52,7 +52,7 @@
   </div>
 
   <div class="col s12 grey lighten-2 txt-align-span teal-div-cls">
-      <h3>ССОИ</h3>
+      <h3>Сетевые сервисы обработки информации в организационно-технических системах</h3>
       <div class="row">
           <div class="col s12 animatedParent">
               <div class="card grey lighten-3 animated fadeInLeft go">

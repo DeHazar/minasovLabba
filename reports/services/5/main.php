@@ -91,6 +91,8 @@ $result2 = $link->query($queryForFilter);
                                 }
                             }
 
+                            $newwidth = intval($newwidth);
+                            $newheight = intval($newheight);
                             $src = imagecreatefromjpeg($file);
                             $dst = imagecreatetruecolor($newwidth, $newheight);
 
@@ -109,7 +111,7 @@ $result2 = $link->query($queryForFilter);
                             <td>".$item["Weight"]."</td>
                             <td>".$item["Price"]."</td>
                             <td><a href='../../../image/Telescopes/".$item["image_path"]."'><img src='compressed/"
-                                .resize_image($root."image/Telescopes/".$item["image_path"],$item["image_path"], 200, 70)."'/></td>
+                                .resize_image("../../../image/Telescopes/".$item["image_path"],$item["image_path"], 200, 70)."'/></td>
                             </tr>";
                         }
                         ?>

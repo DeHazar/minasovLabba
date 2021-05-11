@@ -67,8 +67,8 @@
 
                           <tr>
                               <td>Проект</td>
-                              <td><a href="../reports/services/3/3laba.pdf">Гараев Д.Н. 5 лаба </a> </td>
-                              <td><a href="../reports/services/3/3laba.docx">Гараев Д.Н. 5 лаба </a> </td>
+                              <td><a href="../reports/services/3/3laba.pdf">Гараев Д.Н. 6 лаба </a> </td>
+                              <td><a href="../reports/services/3/3laba.docx">Гараев Д.Н. 6 лаба </a> </td>
                               <td><a href="../reports/services/6/main.php">Проект</a></td>
                           </tr>
                           </tbody>

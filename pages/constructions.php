@@ -56,6 +56,11 @@
                                   <td><a href="../reports/sopromat/7/7laba.pdf">Гараев Д.Н. 7 лаба </a> </td>
                                   <td><a href="../reports/sopromat/7/7laba.docx">Гараев Д.Н. 7 лаба </a> </td>
                               </tr>
+                              <tr>
+                                  <td> Расчет оперения на статические нагрузки</td>
+                                  <td><a href="../reports/sopromat/8/8laba.pdf">Гараев Д.Н. 8 лаба </a> </td>
+                                  <td><a href="../reports/sopromat/8/8laba.docx">Гараев Д.Н. 8 лаба </a> </td>
+                              </tr>
                               </tbody>
                           </table>
                       </div>

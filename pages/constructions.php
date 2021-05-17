@@ -61,6 +61,11 @@
                                   <td><a href="../reports/sopromat/8/8laba.pdf">Гараев Д.Н. 8 лаба </a> </td>
                                   <td><a href="../reports/sopromat/8/8laba.docx">Гараев Д.Н. 8 лаба </a> </td>
                               </tr>
+                              <tr>
+                                  <td> Расчет фюзеляжа на статическую прочность и жесткость</td>
+                                  <td><a href="../reports/sopromat/9/9laba.pdf">Гараев Д.Н. 9 лаба </a> </td>
+                                  <td><a href="../reports/sopromat/9/9laba.docx">Гараев Д.Н. 9 лаба </a> </td>
+                              </tr>
                               </tbody>
                           </table>
                       </div>

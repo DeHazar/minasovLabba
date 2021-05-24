@@ -7,9 +7,9 @@
 </head>
 <body >
       <?php require "../parts/header.php"?>
-      <h1 class="" style="text-align: center; visibility: visible; ">Лабораторные работы</h1>
       <div class="col s12 grey lighten-2 txt-align-span teal-div-cls">
           <div class="row">
+              <h1 class="" style="text-align: center; visibility: visible; ">Лабораторные работы</h1>
               <div class="col s12 animatedParent">
                   <div class="card grey lighten-3 animated fadeInLeft go">
                       <div class="card-content color-cls">
@@ -66,12 +66,137 @@
                                   <td><a href="../reports/sopromat/9/9laba.pdf">Гараев Д.Н. 9 лаба </a> </td>
                                   <td><a href="../reports/sopromat/9/9laba.docx">Гараев Д.Н. 9 лаба </a> </td>
                               </tr>
+                              <tr>
+                                  <td>Расчет шасси на прочность и жесткость</td>
+                                  <td><a href="../reports/sopromat/10/10laba.pdf">Гараев Д.Н. 10 лаба </a> </td>
+                                  <td><a href="../reports/sopromat/10/10laba.docx">Гараев Д.Н. 10 лаба </a> </td>
+                              </tr>
+                              <tr>
+                                  <td>Аэроупругость</td>
+                                  <td><a href="../reports/sopromat/11/11aba.pdf">Гараев Д.Н. 11 лаба </a> </td>
+                                  <td><a href="../reports/sopromat/11/11aba.docx">Гараев Д.Н. 11 лаба </a> </td>
+                              </tr>
+                              <tr>
+                                  <td>Расчет параметров и характеристик РДТТ</td>
+                                  <td><a href="../reports/sopromat/12/12laba.pdf">Гараев Д.Н. 12 лаба </a> </td>
+                                  <td><a href="../reports/sopromat/12/12laba.docx">Гараев Д.Н. 12 лаба </a> </td>
+                              </tr>
+                              <tr>
+                                  <td>Расчет параметров и характеристик ЖРД</td>
+                                  <td><a href="../reports/sopromat/13/13laba.pdf">Гараев Д.Н. 13 лаба </a> </td>
+                                  <td><a href="../reports/sopromat/13/13laba.docx">Гараев Д.Н. 13 лаба </a> </td>
+                              </tr>
                               </tbody>
                           </table>
                       </div>
                   </div>
               </div>
           </div>
+              <div class="row">
+                  <h1 class="" style="text-align: center; visibility: visible; ">Лекции</h1>
+
+                  <div class="col s12 animatedParent">
+                      <div class="card grey lighten-3 animated fadeInLeft go">
+                          <div class="card-content color-cls">
+                              <table class="responsive-table centered qal-tbl-font">
+                                  <thead>
+                                  <tr>
+                                      <th>Номер</th>
+                                      <th>PDF</th>
+                                  </tr>
+                                  </thead>
+                                  <tbody>
+                                  <tr>
+                                      <td>1</td>
+                                      <td><a href="../reports/sopromat/lectures/Лекция1.pdf">Гараев Д.Н. 1 лекция </a> </td>
+                                  </tr>
+
+                                  <tr>
+                                      <td>2</td>
+                                      <td><a href="../reports/sopromat/lectures/Лекция2.pdf">Гараев Д.Н. 2 лекция </a> </td>
+                                  </tr>
+
+                                  <tr>
+                                      <td>3</td>
+                                      <td><a href="../reports/sopromat/lectures/Лекция3.pdf">Гараев Д.Н. 3 лекция </a> </td>
+                                  </tr>
+                                  </tbody>
+                              </table>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+
+
+              <div class="row">
+                      <h1 class="" style="text-align: center; visibility: visible; ">Практики</h1>
+                  <div class="col s12 animatedParent">
+                      <div class="card grey lighten-3 animated fadeInLeft go">
+                          <div class="card-content color-cls">
+                              <table class="responsive-table centered qal-tbl-font">
+                                  <thead>
+                                  <tr>
+                                      <th>Номер</th>
+                                      <th>PDF</th>
+                                  </tr>
+                                  </thead>
+                                  <tbody>
+                                  <tr>
+                                      <td>1</td>
+                                      <td><a href="../reports/sopromat/practices/Практика1.pdf">Гараев Д.Н. 1 практика </a> </td>
+                                  </tr>
+                                  <tr>
+                                      <td>2</td>
+                                      <td><a href="../reports/sopromat/practices/Практика2.pdf">Гараев Д.Н. 2 практика </a> </td>
+                                  </tr>
+                                  <tr>
+                                      <td>3</td>
+                                      <td><a href="../reports/sopromat/practices/Практика3.pdf">Гараев Д.Н. 3 практика </a> </td>
+                                  </tr>
+                                  <tr>
+                                      <td>4</td>
+                                      <td><a href="../reports/sopromat/practices/Практика4.pdf">Гараев Д.Н. 4 практика </a> </td>
+                                  </tr>
+                                  <tr>
+                                      <td>5</td>
+                                      <td><a href="../reports/sopromat/practices/Практика5.pdf">Гараев Д.Н. 5 практика </a> </td>
+                                  </tr>
+                                  <tr>
+                                      <td>6</td>
+                                      <td><a href="../reports/sopromat/practices/6.pdf">Гараев Д.Н. 6 практика </a> </td>
+                                  </tr>
+                                  <tr>
+                                      <td>7</td>
+                                      <td><a href="../reports/sopromat/practices/7.pdf">Гараев Д.Н. 7 практика </a> </td>
+                                  </tr>
+                                  <tr>
+                                      <td>8</td>
+                                      <td><a href="../reports/sopromat/practices/8.pdf">Гараев Д.Н. 8 практика </a> </td>
+                                  </tr>
+                                  <tr>
+                                      <td>9</td>
+                                      <td><a href="../reports/sopromat/practices/9.pdf">Гараев Д.Н. 9 практика </a> </td>
+                                  </tr>
+                                  <tr>
+                                      <td>10</td>
+                                      <td><a href="../reports/sopromat/practices/10.pdf">Гараев Д.Н. 10 практика </a> </td>
+                                  </tr>
+                                  <tr>
+                                      <td>11</td>
+                                      <td><a href="../reports/sopromat/practices/10.pdf">Гараев Д.Н. 11 практика </a> </td>
+                                  </tr>
+                                  <tr>
+                                      <td>12</td>
+                                      <td><a href="../reports/sopromat/practices/Практика5.pdf">Гараев Д.Н. 12 практика </a> </td>
+                                  </tr>
+                                  </tbody>
+                              </table>
+                          </div>
+                      </div>
+                      </div>
+          </div>
+
       </div>
 
       <?php require "../parts/footer.php"?>

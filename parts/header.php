@@ -34,8 +34,6 @@ $root = "http://".$_SERVER["HTTP_HOST"]."/repository/student/sts-07/14263";
                     echo "
                     <li><a href=\"".$root."/index.php\">Обо мне</a></li>
                     <li><a href='".$root."/Photos/my_photos.php'>Фотографии</a> </li>
-                    <li><a href=\"".$root."/pages/lections.php\">Лекции</a></li>
-                    <li><a href=\"".$root."/pages/practices.php\">Практики</a></li>
                     <li><a href=\"".$root."/pages/services.php\">Отчеты ССОИ ОТС</a></li>
                     <li><a href=\"".$root."/pages/constructions.php\">Отчеты ОКО ОТС</a></li>
                     <li><a href=\"".$root."/reports/services/6/main.php\">Проект</a></li>
@@ -48,11 +46,19 @@ $root = "http://".$_SERVER["HTTP_HOST"]."/repository/student/sts-07/14263";
 
                 </ul>
                 <ul class="side-nav side-nav-cls" id="mobile-render">
-                    <li><a  href="/index.php">Обо мне</a></li>
-                    <li><a href="/pages/lections.php">Лекции</a></li>
-                    <li><a href="/pages/practices.php">Практики</a></li>
-                    <li><a href="/pages/services.php">Отчеты ССОИ ОТС</a></li>
-                    <li><a href="/pages/constructions.php">Отчеты ОКО ОТС</a></li>
+                    <?php
+                    echo "
+                    <li><a href=\"".$root."/index.php\">Обо мне</a></li>
+                    <li><a href='".$root."/Photos/my_photos.php'>Фотографии</a> </li>
+                    <li><a href=\"".$root."/pages/services.php\">Отчеты ССОИ ОТС</a></li>
+                    <li><a href=\"".$root."/pages/constructions.php\">Отчеты ОКО ОТС</a></li>
+                    <li><a href=\"".$root."/reports/services/6/main.php\">Проект</a></li>
+                    ";
+                    // Если пользователь уже зашел, то кидаем на главную страницу
+                    if (isset($_SESSION['user_id'])) {
+                        echo "<li ><a href=\"".$root."/reports/services/6/signOut.php\" class='red-text'>Выйти</a></li>";
+                    }
+                    ?>
                 </ul>
         </div>
     </nav>

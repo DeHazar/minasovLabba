@@ -184,11 +184,11 @@
                                   </tr>
                                   <tr>
                                       <td>11</td>
-                                      <td><a href="../reports/sopromat/practices/10.pdf">Гараев Д.Н. 11 практика </a> </td>
+                                      <td><a href="../reports/sopromat/practices/11.pdf">Гараев Д.Н. 11 практика </a> </td>
                                   </tr>
                                   <tr>
                                       <td>12</td>
-                                      <td><a href="../reports/sopromat/practices/Практика5.pdf">Гараев Д.Н. 12 практика </a> </td>
+                                      <td><a href="../reports/sopromat/practices/12.pdf">Гараев Д.Н. 12 практика </a> </td>
                                   </tr>
                                   </tbody>
                               </table>

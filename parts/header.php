@@ -32,6 +32,7 @@ $root = "http://".$_SERVER["HTTP_HOST"]."/repository/student/sts-07/14263";
                 <ul class="right hide-on-med-and-down">
                     <?php
                     echo "
+                    <li><a href=\"".$root."/achiments.php\">Достижения</a><li>
                     <li><a href=\"".$root."/index.php\">Обо мне</a></li>
                     <li><a href='".$root."/Photos/my_photos.php'>Фотографии</a> </li>
                     <li><a href=\"".$root."/pages/services.php\">Отчеты ССОИ ОТС</a></li>
@@ -48,6 +49,7 @@ $root = "http://".$_SERVER["HTTP_HOST"]."/repository/student/sts-07/14263";
                 <ul class="side-nav side-nav-cls" id="mobile-render">
                     <?php
                     echo "
+                    <li><a href=\"".$root."/achiments.php\">Достижения</a><li>
                     <li><a href=\"".$root."/index.php\">Обо мне</a></li>
                     <li><a href='".$root."/Photos/my_photos.php'>Фотографии</a> </li>
                     <li><a href=\"".$root."/pages/services.php\">Отчеты ССОИ ОТС</a></li>

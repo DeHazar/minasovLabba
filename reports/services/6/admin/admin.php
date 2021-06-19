@@ -34,6 +34,9 @@ if (isset($_SESSION['user_id'])) {
                     <a class="waves-effect waves-light btn" style="width: 400px;" href="removeUserList.php"> Удалить пользователей</a>
 
                 </div>
+                <div class="row">
+                    <a class="waves-effect waves-light btn" style="width: 400px;" href="restore.php"> Восстановить базу данных</a>
+                </div>
             </div>
         </div>
 

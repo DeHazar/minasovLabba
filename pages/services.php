@@ -68,8 +68,8 @@
 
                         <tr>
                             <td>Проект</td>
-                            <td><a href="../reports/services/3/3laba.pdf">Гараев Д.Н. 6 лаба </a></td>
-                            <td><a href="../reports/services/3/3laba.docx">Гараев Д.Н. 6 лаба </a></td>
+                            <td><a href="../reports/services/6/6laba.pdf">Гараев Д.Н. 6 лаба </a></td>
+                            <td><a href="../reports/services/6/6laba.docx">Гараев Д.Н. 6 лаба </a></td>
                             <td><a href="../reports/services/6/main.php">Проект</a></td>
                         </tr>
                         </tbody>
@@ -122,16 +122,16 @@
                         </tr>
                         <tr>
                             <td>8</td>
-                            <td><a href="../reports/services/lectures/8.pdf">Гараев Д.Н. 8 лекция </a></td>
+                            <td><a href="../reports/services/lectures/9.pdf">Гараев Д.Н. 8 лекция </a></td>
                         </tr>
                         <tr>
                             <td>9</td>
-                            <td><a href="../reports/services/lectures/9.pdf">Гараев Д.Н. 9 лекция </a></td>
+                            <td><a href="../reports/services/lectures/10.pdf">Гараев Д.Н. 9 лекция </a></td>
                         </tr>
 
                         <tr>
                             <td>10</td>
-                            <td><a href="../reports/services/lectures/10.pdf">Гараев Д.Н. 10 лекция </a></td>
+                            <td><a href="../reports/services/lectures/8.pdf">Гараев Д.Н. 10 лекция </a></td>
                         </tr>
                         </tbody>
                     </table>
@@ -148,13 +148,32 @@
                             <thead>
                             <tr>
                                 <th>Номер</th>
-                                <th>PDF</th>
+                                <th>Word</th>
+                                <th>Задания</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
                                 <td>1</td>
-                                <td><a href="../reports/sopromat/1/1.docx">Гараев Д.Н. 1 лаба </a> </td>
+                                <td><a href="../reports/services/practices/garaev1.pdf">Гараев Д.Н. 1 Практика </a> </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><a href="../reports/services/practices/практика2.doc">Гараев Д.Н. 2 Практика </a> </td>
+                                <td>
+                                    <a href="../reports/services/practices/pr2(1).php">Задание 1</a>
+                                    </br>
+                                    <a href="../reports/services/practices/pr2(2).php">Задание 2</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><a href="../reports/services/practices/практика3.doc">Гараев Д.Н. 3 Практика </a> </td>
+                                <td>
+                                    <a href="../reports/services/practices/pr3.php">Задание</a>
+                                    <br>
+                                    <a href="../reports/services/practices/sqlpr3.sql">SQL</a>
+                                </td>
                             </tr>
                             </tbody>
                         </table>

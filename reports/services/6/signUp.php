@@ -20,7 +20,7 @@ if (isset($_REQUEST['username']) | isset($_REQUEST['password'])) {
     $first_name = trim($_REQUEST['first_name']);
     $last_name = trim($_REQUEST['second_name']);
     $middle_name = trim($_REQUEST['middle_name']);
-    $address = trim($_REQUEST['address']);
+    // $address = trim($_REQUEST['address']);
     $confirm_password = trim($_REQUEST['confirm_password']);
 
     $checkUserQuery = sprintf("SELECT login FROM users WHERE login = '%s'", $link->real_escape_string($username));

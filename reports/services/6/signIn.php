@@ -12,8 +12,10 @@
 <?php
 
 require_once '../../../Script/database_connection.php';
+if (isset($_REQUEST['error_message'])) {
+    $error_message = $_REQUEST['error_message'];
+}
 
-$error_message = $_REQUEST['error_message'];
 // Если пользователь уже зашел, то кидаем на главную страницу
 if (!isset($_SESSION['user_id'])) {
 // Если уже отправлен пост запрос с именем пользователя, то смотрим

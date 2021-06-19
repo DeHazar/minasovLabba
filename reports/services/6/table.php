@@ -31,7 +31,7 @@ $result2 = $link->query($queryForFilter);
             <div class="card grey lighten-3" style="padding-bottom: 20px">
                 <h5 class="center" style ="padding: 20px;">Фильтр</h5>
                 <br>
-                <form method="get" action="main.php">
+                <form method="get" action="table.php">
                     <p><select class="select-dropdown" style="display: block" name="focus" method="post" enctype="multipart/form-data">
                             <option disabled selected>Выберите фокусное расстояние</option>
                             <?php
@@ -105,7 +105,7 @@ $result2 = $link->query($queryForFilter);
 
                         while ($item = $result->fetch_assoc()) {
                             echo "<tr>
-                            <td>".$item["Name"]."</td>
+                            <td><a href=\"about.php?id=".$item["id"]."\">".$item["Name"]."</a></td>
                             <td>".$item["Focus"]."</td>
                             <td>".$item["Diameter"]."</td>
                             <td>".$item["Weight"]."</td>
